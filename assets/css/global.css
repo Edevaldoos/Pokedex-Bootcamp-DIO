@@ -17,9 +17,19 @@ header {
 }
 
 header > h1 {
-    padding: 30px;
-    font-size: 4vw;
+    font-size: 6vw;
     text-align: center;
+}
+
+header > p {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+header a{
+    color: #AB9DC4;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 .content {
