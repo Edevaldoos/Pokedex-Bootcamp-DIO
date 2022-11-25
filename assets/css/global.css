@@ -6,17 +6,11 @@
 }
 
 body {
-    background-color: hsla(0, 100%, 50%, 0.400);
-    /* background-image: url(pokeball33.png);
-    background-position: right;
-    background-attachment: fixed;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;  */
+    background-color: hsla(261, 26%, 49%, 0.600);
 }
 
 header {
-    background-color: rgb(207, 0, 0);
+    background-color: #BF3029;
     width: auto;
     padding: .5rem;
     color: aliceblue;
@@ -40,6 +34,7 @@ header > h1 {
     height: auto;
    }
   }
+
 
 
 

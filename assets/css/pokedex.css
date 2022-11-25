@@ -11,6 +11,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 0 0 1rem 1rem;
 }
 
 .grass {
@@ -116,7 +117,8 @@
     margin: .25rem 0;
     font-size: 1rem;
     color: aliceblue;
-    background-color: red;
+    background-color:#BF3029;
+    ;
     border: none;
     border-radius: .5rem;
 }
