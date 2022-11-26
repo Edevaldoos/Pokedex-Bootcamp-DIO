@@ -1,13 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:'pokemon';
+    src: url('../font/Pokemon\ Hollow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}       
+
 * {
-    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: hsla(261, 26%, 49%, 0.600);
-    background-image: url(pokebola.vetor33.png);
+    background-image: url(../imagens/pokebola.vetor33.png);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -16,30 +23,26 @@ body {
 
 header {
     background-color: #BF3029;
-    width: auto;
-    padding: .5rem;
     color: aliceblue;
-}
-
-header > h1 {
-    font-size: 5rem;
-    text-align: center;
-}
-
-header > p {
-    text-align: center;
-    font-size: 2rem;
+    font-family: 'pokemon', times, sans-serif;
 }
 
 header a{
     color: #AB9DC4;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bolder;
 }
 
 .content {
-    height: 100vh;
     width: 100vw;
+    border-radius: 10px 10px 0 0;
+}
+
+.content .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
 }
 
 @media screen and (min-width: 992px) {

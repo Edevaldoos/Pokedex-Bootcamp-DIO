@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -16,7 +17,7 @@
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
-    
+    box-shadow: 3px 3px 5px 0px rgba(171, 157, 196, 0.600);     
 }
 
 .pokemon .name {
@@ -77,7 +78,7 @@
 
 .pokemon .detail .types .type {
     
-    color: aliceblue;
+    color: #49120f;
     padding: .3rem .6rem;
     font-size: .8rem;
     margin: .3rem 0;
